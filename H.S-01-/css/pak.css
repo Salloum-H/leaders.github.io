@@ -1,0 +1,74 @@
+#package {
+    background-color: #253342;
+    text-align: center;
+    padding-top: 50px;
+    height: 750px;
+}
+#package h1{color:white;}
+
+.raw{
+    background-color: #253342; 
+    width:90%;
+    margin: 50px auto;
+}
+
+.col-3{
+    width: 32%;
+    float: left;
+    font-size: 15px;
+    margin-right: 1%;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 15px; 
+    color: white;
+    height:auto;
+    max-height: 570px; !important;
+    min-height: 510px;!important;
+    line-height: 1.1;
+}
+
+
+.pak{
+    width: 80px;
+    height: 25px;
+    border-radius: 15px;
+    margin: 20px;
+    font-size: 8px;
+    background-color: red;
+    color: whitesmoke;
+    box-shadow: 0px 5px #999;
+    border: none;
+    cursor: pointer;   
+}.pak:active{
+    box-shadow: 0px 0px #666;
+    transform: translateY(5px);
+}.pak:hover{
+    background-color: goldenrod;
+}
+.col-left{
+    margin-left: 1%;
+}
+.tut-header{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.col-3 img{
+    border: 1px solid red;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 200px;
+}
+.p1 {
+    
+    height: 100%;
+    border: 2px white;
+    padding-bottom: 55px;
+    padding-top: 20px;
+}
+#p2{
+    border: 2px white;
+    padding-bottom: 43px;
+     padding-top: 20px;
+}

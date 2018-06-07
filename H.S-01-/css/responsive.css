@@ -1,0 +1,79 @@
+@media (max-width: 560px){
+    
+    /* يتسيق ال menu */
+#menu 
+    {
+        height: 100px;
+        text-align: center;
+        transition-duration: 0.3s;
+    }
+#logo 
+    {
+        float: none;
+        line-height: 50px;
+        border-bottom: 1px solid #9e4040;
+        padding: 0px;
+      
+    }
+    
+.menu-item 
+    {
+        float:left;
+        padding: 5px;
+        width: 20%;
+    }
+
+.menu-all  
+    {
+    width: 100%;
+    padding-right: 0px;
+ 
+    }
+
+
+/* about*/
+#about 
+    {
+        width: 90%;
+    }
+
+/* Pakages */
+#package 
+    {
+        height: 1800px;
+    }
+.col-3 
+    {
+        width: 100%;
+        background-color: #253342;
+        margin-bottom: 3%;
+    }
+.col-left
+    {
+        margin-left: 0;
+    }
+    
+/* contact */
+
+  .col-2
+    {
+        width: 90%;
+        padding-left: 30px;
+        float: none;
+    }
+    input[type="text"]{
+    width: 70%;
+}
+
+textarea{
+    width: 70%;
+   
+}
+    
+    
+#gmap_canvas 
+    { 
+        width:100%;
+       
+    }
+       

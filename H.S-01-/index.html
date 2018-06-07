@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Basic HTML5 -->
+        <meta charset="utf-8"> <!-- to wirte and read in arabic -->
+        <meta name="author" content="Hussein Salloum"> <!-- to view in search engine -->
+        <meta name="description" content="ceate website for beginners"> <!-- to view in search engine -->
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <link rel="shortcut icon" href="image/favicon.jpg.ico">
+        
+        <!-- My code -->
+        <title> Connect Financials </title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    
+    <body>
+        <!-- Main Menu -->
+        <div id="container">
+            <nav id="menu">
+                <h1 id="logo">Connect Financials</h1>
+                <ul class="menu-all">
+                    <li class="menu-item"><a href="#">Home</a></li>
+                    <li class="menu-item"><a href="#">About</a></li>
+                    <li class="menu-item"><a href="#">Packages</a></li>
+                    <li class="menu-item"><a href="#">Youtube</a></li>
+                    <li class="menu-item"><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        
+        
+        <!-- cover Image -->
+            <div id="hero">
+                
+            </div>
+
+            <!-- about section -->
+            <section id="about">
+                <h1>About connect financials</h1>
+                <div>
+                    <p id="about-p">We are passionate about purposeful, innovative products which act as solutions to modern day needs. Whether it’s in the trade and brokerage sector or for overall business efficiency and support, our goal is to provide premium technology solutions at cost-effective rates.
+                    </p>
+                </div>
+                <button id="cta"> Press Here</button>
+</section>
+            
+            <!-- Packages section -->
+            <section id="package">
+                <h1>Packages and Prices</h1>
+                <div class="raw">
+                <!-- Standard -->
+                    <div class="col-3 col-left">
+                        <header Class="tut-header"> Standard- $5000</header>
+                        <img src="image/images.jpg"> 
+                        <footer class="tut-footer">
+                             <h5>$750 per month</h5>
+                            <p class="p1">VertexFX Backoffice,
+                             Client Terminal,
+                            eBroker,
+                            Smart Dealer,
+                            Web Trader,
+                            One Mobile Trader of your choice (iOS, Android, or Windows Phone)</p>
+                            
+                        <button class="pak"> GO STANDARD</button>
+                        </footer>   
+                    </div>
+
+                  <!-- Premium -->
+                    <div class="col-3">
+                        <header Class="tut-header"> Premium- $7000</header>
+                        <img src="image/prem.jpeg">
+                        <footer class="tut-footer">
+                            <h5>$900 per month</h5>
+                            <p class="p1">VertexFX Backoffice,
+                             Client Terminal,
+                            eBroker,
+                           Smart Dealer,
+                            Web Trader
+                             All the Mobile Traders we support (iOS, Android, and Windows Phone)</p>
+                            
+                         <button class="pak"> GO PREMIUM</button>
+                        </footer>  
+                    </div>
+
+
+                   <!-- Elite -->
+                    <div class="col-3"> 
+                        <header Class="tut-header"> Elite- $10000</header>
+                       <img src="image/elite.jpg">
+                        <footer class="tut-footer">
+                            <h5>$1200 per month</h5>
+                            <p id="p2">VertexFX Backoffice,
+                            Client Terminal
+                            eBroker,
+                            Smart Dealer,
+                            Web Trader,
+                         All the Mobile Traders we support (iOS, Android, and Windows Phone),
+                            One FIX Bridge with any Liquidity Provider (LP) of your choice</p>
+                            <button class="pak"> GO ELITE</button>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Youtube section -->
+            <section id="youtube">
+                <h1>How application work??</h1>
+                <div class="row">
+                        <div class="videoframe">
+                            <iframe class="video" src="https://www.youtube.com/embed/dHHlo6vnYqI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                </div>
+            </section>
+            
+            <!-- Contact section -->
+            <section id="contact">
+                <h1>Send your Feedback</h1>
+                <div class="row">
+                    <div class="col-2">
+                         <div style='overflow:hidden;height:400px;width:450px;'>
+                            <div id='gmap_canvas'>
+                            </div>
+                             <div>
+                                 <small><a href="embedgooglemaps.com/">https://embedgooglemaps.com/</a></small>
+                             </div>
+                             <div>
+                                 <small><a href="http://promocode.com.ph/lazada/">subscribe online</a></small>
+                             </div>
+                            <!-- <style>#gmap_canvas img{max-width:none!important;background:none!important}</style> -->
+                        </div>
+                    </div>
+                        <form action="#" method="post">
+                            <input id="name" class="input" name="name" type="text" value="name" size="30">
+                            <br>
+                            <input id="Email" class="input" name="email" type="text" value="email" size="30">
+                            <br>
+                            <input id="website" class="input" name="website" type="text" value="website" size="30">
+                            <br>
+                            <textarea id="message" class="input" name="message" rows="8" col="30"></textarea>
+                            <br>
+                            <input  class="pak" id="submit" type="submit" value="send">
+                            <input class="pak" id="submit" type="reset" value="reset">
+                        </form>
+                    </div>
+            </section>
+
+            <!-- Footer Section -->
+            <section id="wefooter">
+                <p>All Rights Reserved</p>
+                <p>Tel:0096171984121  |  Fax:1211212  |  
+                    <a href="mailto:h.salloum@connectfinancials.com">Email:h.salloum@connectfinancials.com</a></p>
+                
+            </section>
+        
+        
+        </div>
+        <!-- script -->
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+        <script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(33.2704888,35.203764099999944),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(33.2704888,35.203764099999944)});infowindow = new google.maps.InfoWindow({content:'<strong>Connect Financials</strong><br>tyre, lebanon<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
